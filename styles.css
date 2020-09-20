@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=PT+Serif&display=swap');
+header {
+    font-family: "Merriweather", Georgia, serif;
+}
+main {
+    display: block;
+    font-family: "PT Seri", Arial, sans-serif;
+    text-align: center;
+}
+header, footer {
+    background-color: orange;
+   color: white;
+   text-align: center;
+   padding: 5px;
+}
+header img {
+    width: 150px;
+    height: 200px;
+    float: right;
+}
+html {
+    max-width: 600px;
+    margin: 0 auto;
+  }
