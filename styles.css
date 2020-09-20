@@ -13,8 +13,8 @@ header, footer {
    padding: 5px;
 }
 header img {
-    width: 100px;
-    height: 150px;
+    width: 150px;
+    height: 200px;
     float: right;
 }
 #content{
