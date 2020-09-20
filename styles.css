@@ -3,6 +3,7 @@ header {
     font-family: "Merriweather", Georgia, serif;
 }
 main {
+    display: block;
     font-family: "PT Seri", Arial, sans-serif;
     text-align: center;
 }
