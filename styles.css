@@ -20,5 +20,6 @@ header img {
 }
 html {
     max-width: 960px;
+    min-width: 600px;
     margin: 0 auto;
   }
