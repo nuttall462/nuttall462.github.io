@@ -4,6 +4,7 @@ header {
 }
 main {
     font-family: "PT Seri", Arial, sans-serif;
+    text-align: center;
 }
 header, footer {
     background-color: orange;
@@ -12,6 +13,10 @@ header, footer {
    padding: 5px;
 }
 header img {
-    width: 5px;
-    height: 5px;
+    width: 150px;
+    height: 200px;
 }
+#content{
+    max-width:960px;
+    margin: 0 auto;
+  }
