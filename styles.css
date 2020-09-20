@@ -11,3 +11,7 @@ header, footer {
    text-align: center;
    padding: 5px;
 }
+header img {
+    width: 150px;
+    height: 200px;
+}
