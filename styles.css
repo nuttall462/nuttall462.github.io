@@ -18,7 +18,7 @@ header img {
     height: 200px;
     float: right;
 }
-#content{
+html {
     max-width: 440px;
     margin: 0 auto;
   }
