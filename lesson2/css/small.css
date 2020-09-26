@@ -64,3 +64,8 @@ img {
     width: 150px;
     height: auto;
 }
+
+ h1 {
+	font-size: 15px;
+	line-height: 10;
+  }
