@@ -1,21 +1,19 @@
-body {
-	font-size: 16px;
-	font-family: 'Fjalla One', sans-serif;
-}
 
 header {
-	background-color: #ECD078;
+	background-color: #43CFA0;
 	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 30px;
 	line-height: .75;
 	margin: .5rem;
 	border-radius: 5px;
+	font-size: 16px;
+	font-family: "Merriweather", Georgia, serif;
 }
 
 footer {
-	background-color: #ECD078;
-	color: #542437;
+	background-color: #43CFA0;
+	color: #6E160B;
 	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -25,12 +23,11 @@ footer {
 }
 
 p {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'PT Serif', Arial, serif;
 	color: #542437;
 	line-height: 1.5;
 }
 
-/* phone or baseline views **************************/
 main {
 	max-width: 967px;
 	margin: 0 auto;
@@ -39,27 +36,10 @@ main {
 	font-size: 0.8rem;
 }
 
-a {
-	color: #542437;
-}
-
-a:hover {
-	color: #9459a3;
-}
-
-/* main section h2 {
-	color: #ffffff;
-}
-
-main section h3 {
-	color: #542437;
-} */
-
 main section {
 	margin: 0.5rem;
-	/* border: 1px solid #bbb; */
 	padding: 0 1rem;
-	background-color: #eeeeee;
+	background-color: #BCB5B4;
 	border-radius: 5px;
 }
 
@@ -76,12 +56,6 @@ main section:nth-child(2) {
 main section:nth-child(3) {
 	display: block;
 	margin: 0.5rem;
-}
-
-main section picture img {
-	/* width: 100%; */
-	max-width: 275px;
-	height: auto;
 }
 
 h1 {
@@ -102,7 +76,7 @@ h3 {
 	font-size: 1.25rem;
 	letter-spacing: .15rem;
 	line-height: 1.0;
-	color: #990000;
+	color: #542437;
 }
 
 h4 {
