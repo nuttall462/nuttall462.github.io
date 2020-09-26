@@ -59,6 +59,9 @@ main section:nth-child(3) {
 h1, h2, h3, h4 {
 	color: #542437;
 }
+h1 {
+	line-height: 1;
+}
 
 img {
     width: 150px;
