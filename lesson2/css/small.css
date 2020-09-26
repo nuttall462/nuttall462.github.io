@@ -85,3 +85,8 @@ h4 {
 	line-height: 0;
 	color: #542437;
 }
+
+img {
+    width: 150px;
+    height: auto;
+}
