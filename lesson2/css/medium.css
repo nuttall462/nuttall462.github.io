@@ -3,8 +3,5 @@
     grid-template-columns: 1fr 1fr;
     max-width: 646px;
   }
-  h1 {
-	  font-size: 15px;
-	  line-height: 10;
-  }
+ 
 }
