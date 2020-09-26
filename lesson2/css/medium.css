@@ -3,4 +3,7 @@
     grid-template-columns: 1fr 1fr;
     max-width: 646px;
   }
+  h1 {
+	  line-height: 5;
+  }
 }
