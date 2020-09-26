@@ -7,5 +7,9 @@
   header, footer {
     border-radius: 10px;
   }
+  
+  h1 {
+	  line-height: 5;
+  }
 
 }
