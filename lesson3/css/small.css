@@ -6,7 +6,7 @@ header, footer {
 	justify-content: center;
 	padding: 10px;
 }
-body {
+p, li {
 	font-size: 16px;
 	font-family: 'Rubik', sans-serif;
 }
