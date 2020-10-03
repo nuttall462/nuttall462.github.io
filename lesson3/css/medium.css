@@ -4,14 +4,12 @@
   nav a {
 		font-size: 1rem;
 	}
-	main {
-		grid-template-columns: 1fr 1fr;
-	}
+	
 	article:nth-child(3) {
 		grid-column: span 2;
 	}
 	img {
-    display: block;
+    		display: block;
 		width: 100%;
 		height: auto;
 	}
