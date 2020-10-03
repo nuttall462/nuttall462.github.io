@@ -49,6 +49,9 @@ nav ul li a {
 	font-size: 0.95rem;
 	color: #E0FBFC;
 }
+a {
+	color: #E0FBFC;
+}
 a:visited {
 	color: #FF9B71;
 }
