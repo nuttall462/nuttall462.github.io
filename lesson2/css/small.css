@@ -1,0 +1,65 @@
+header {
+	background-color: #43CFA0;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	line-height: .75;
+	margin: .5rem;
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: "Merriweather", Georgia, serif;
+}
+
+footer {
+	background-color: #43CFA0;
+	color: #6E160B;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	line-height: 1.5;
+	margin: .5rem;
+	border-radius: 5px;
+}
+
+p {
+	font-family: 'PT Serif', Arial, serif;
+	color: #542437;
+}
+
+main {
+	max-width: 967px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+main section {
+	margin: 0.5rem;
+	padding: 0 1rem;
+	background-color: #BCB5B4;
+	border-radius: 5px;
+}
+
+main section:nth-child(1) {
+	display: block;
+	margin: 0.5rem;
+}
+
+main section:nth-child(2) {
+	display: block;
+	margin: 0.5rem;
+}
+
+main section:nth-child(3) {
+	display: block;
+	margin: 0.5rem;
+}
+h1, h2, h3, h4 {
+	color: #542437;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
