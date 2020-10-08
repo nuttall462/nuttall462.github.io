@@ -2,8 +2,8 @@
     nav ul { display: flex; }
       nav ul li { flex: 1 1 100%; }
   
-  img {
-          display: block;
+  picture {
+      display: block;
       width: 100%;
       height: auto;
   }

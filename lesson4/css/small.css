@@ -14,14 +14,6 @@ header, nav, main, footer {
 	max-width: 767px;
 	margin: 0 auto;
 }
-header nav {
-  display: block;
-	color: #07393C;
-	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
-}
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -30,7 +22,12 @@ nav ul {
 }
 nav {
 	background-color: #07393C;
-	text-align: center;
+    text-align: center;
+    display: block;
+	color: #FF9B71;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
 }
 main {
   background-color: #E0FBFC;
