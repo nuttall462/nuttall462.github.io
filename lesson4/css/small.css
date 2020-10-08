@@ -57,8 +57,8 @@ a:hover {
 	background-color: #6C6061;
 }
 picture {
-    width: 100px;
-    height: 100px;
+    width: auto;
+    height: 6rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
