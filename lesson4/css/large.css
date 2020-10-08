@@ -7,9 +7,4 @@
         display: flex;
         justify-content: space-around;
     }
-
-    picture {
-        width: auto;
-    }
-
 }

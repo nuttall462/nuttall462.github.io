@@ -56,3 +56,12 @@ a:visited {
 a:hover {
 	background-color: #6C6061;
 }
+picture {
+    width:100;
+    height:100;
+    width: auto;
+    height: 6rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
