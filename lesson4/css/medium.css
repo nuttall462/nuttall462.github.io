@@ -4,8 +4,6 @@
   
   picture {
     grid-area: 1 / 1 / 3 / 2;
-    height: 8rem;
-    width: auto;
   }
 
   nav ul li {
