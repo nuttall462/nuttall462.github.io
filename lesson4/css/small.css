@@ -58,6 +58,9 @@ header img {
 .navigation a:hover, .frontPage a:hover{
 	background-color: #6C6061;
 }
+.frontPage a:hover{
+    color:#E0FBFC;
+}
 .navigation a:visited {
 	color: #FF9B71;
 }
