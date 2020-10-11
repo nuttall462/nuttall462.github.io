@@ -2,18 +2,21 @@
   body {
       padding: 15px;
   }
-  .navigation {
-    display: flex;
-}
   .navigation li {
-    display: block;
-    flex: 1 1 auto;
-}
+    flex: 1 1 100%;
+  }
   .navigation a {
     text-align: center;
-}
+  }
   .navigation li:first-child {
     display: none;
-}
+  }
+  button{
+  display:none;
+  }
+  nav ul.hide{
+  display:flex;
+  flex-flow:row;
+  }
 
 }

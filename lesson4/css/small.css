@@ -4,53 +4,96 @@ html {
 header, footer {
     background-color: #1B998B;
     color: #07393C;
-	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 10px;
+    padding: 10px;
+    text-align:center;
+}
+header{
+    display:flex;
 }
 header, nav, main, footer {
 	margin: 0 auto;
 }
 main {
   background-color: #E0FBFC;
-  display: block;
   font-size: 0.8rem;
 }
 h1, h2, h3, h4, h5, h6 {
-  color: #1B998B;
+  color:#07393c;
   font-family: 'Quicksand', sans-serif;
 }
-picture {
+header img {
     width: 100px;
     height: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px 20px 0 0;
 }
 .navigation {
 	list-style: none;
     padding: 0;
     background-color: #07393C;
-}
-.navigation li:first-child {
-	display: block;
+    display: flex;
+    flex-basis: 100%;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
 }
 .navigation li {
-	display: none;
+    list-style:none;
+    width: 100%;
+    flex: 1;
 }
 .navigation a {
 	display: block;
 	padding: 0.75rem;
-	text-align: left;
+	text-align: center;
 	text-decoration: none;
 	color: black;
     font-weight: 700;
     font-size: 0.95rem;
     color: #E0FBFC;
-    flex-direction: column;
 	font-family: 'Rubik', sans-serif;
 }
-.navigation a:hover {
+.navigation a:hover, .frontPage a:hover{
 	background-color: #6C6061;
+}
+.navigation a:visited {
+	color: #FF9B71;
+}
+#topHeader{
+    display: flex;
+    flex-direction:column;
+    padding:5px;
+}
+.frontPage{
+    text-align:center;
+    list-style: none;
+    font-size: 0.95rem;
+    color: #E0FBFC;
+    font-family: 'Rubik', sans-serif;
+    margin: 0 auto;
+    max-width: 760px;
+}
+button{
+    float:right;
+    margin-top:50px;
+}
+main h2{
+    align-items:center;
+    text-align:center;
+}
+nav ul.hide{
+    display:none;
+}
+.navigation:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+section div{
+    margin: 10px 0;
+    padding: 20px;
+    border-style: dashed;
+    color: #FF9B71;
 }

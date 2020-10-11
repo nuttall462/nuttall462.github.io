@@ -13,25 +13,39 @@
 </head>
 <body>
     <header>
-      <picture>
-      <img src="images/iconfinder_weather-09_1530384.jpg" alt="logo"></picture>
+      <img src="images/iconfinder_weather-09_1530384.jpg" alt="logo">
+      <section id ="topHeader">
       <h1>Whether the Weather</h1>
       <h3>Connecting our community through the sky</h3>
+      </section>
+      <button onClick = "toggleMenu()">&#9776;</button>
     </header>
+    <nav class="navigation">
+      <ul id="menu" class="hide">
+        <li onClick="toggleMenu()"><a href="#"></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
     <main>
-        <nav class="navigation">
-          <ul>
-            <li><a class="ham" href="#">&#9776; Menu</a></li>
-            <li><a href="">Hero with weather summary</a></li>
-            <li><a href="">5 day forecast</a></li>
-            <li><a href="">Article</a></li>
-            <li><a href="">Contact Information</a></li>
-          </ul>
-        </nav>
+      <h2>Preston Idaho</h2>
+        <section class="frontPage">
+            <div><a href="#">Hero with weather summary</a></div>
+            <div><a href="#">5 day forecast</a></div>
+            <div><a href="#">Article</a></div>
+            <div><a href="#">Contact Information</a></div>
+        </section>
     </main>
     <footer>
-      &copy; Whether the Weather | Attributions | Rylee Nuttall <br>
-      <span id="currentDate"></span> <script type = "text/javascript" src="js/todaysDate.js"></script>
+      <div>
+      &copy; Whether the Weather | Attributions | Rylee Nuttall</div>
+      <div><span id="currentDate"></span></div>
     </footer>
+    <script type = "text/javascript" src="js/todaysDate.js"></script>
+    <script type = "text/javascript" src="js/hamburger.js"></script>
 </body>
 </html>
