@@ -37,6 +37,7 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   font-size: 0.8rem;
+  padding:5px;
 }
 h1, h2, h3, h4, h5, h6 {
   color: #1B998B;
@@ -59,3 +60,4 @@ a:visited {
 a:hover {
 	background-color: #6C6061;
 }
+
