@@ -183,8 +183,9 @@ p {
     border:none;
 }
 #forecast{
-    float:left;
     font-size:25px;
+    align-content: left;
+    justify-content: left;
 }
 #fiveDay{
     display:flex;
