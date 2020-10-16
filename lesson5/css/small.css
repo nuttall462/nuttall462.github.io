@@ -1,5 +1,4 @@
 header, footer {
-    background-color: #1B998B;
 	align-items: center;
 	justify-content: center;
     padding: 10px;
@@ -7,10 +6,13 @@ header, footer {
 }
 footer{
     color:#E0FBFC;
+    font-family: 'Rubik', sans-serif;
+    background-color: #07393C;
 }
 header{
     display:flex;
     color: #07393C;
+    background-color: #1B998B;
 }
 header, nav, main, footer {
 	margin: 0 auto;
