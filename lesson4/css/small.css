@@ -1,13 +1,16 @@
 header, footer {
     background-color: #1B998B;
-    color: #07393C;
 	align-items: center;
 	justify-content: center;
     padding: 10px;
     text-align:center;
 }
+footer{
+    color:#E0FBFC;
+}
 header{
     display:flex;
+    color: #07393C;
 }
 header, nav, main, footer {
 	margin: 0 auto;

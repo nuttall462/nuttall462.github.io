@@ -21,32 +21,6 @@
   .map{
     display:none;
 }
-.column-col{
-  text-align: center;
-  border:solid;
-}
-.column img {
-width: 50%;
-}
-.data {
-display: block;
-padding: 0 5px 5px;
-font-size: 1rem;
-text-align: center;
-}
-.col-head {
-font-weight: 700;
-font-size: 1rem;
-display: block;
-padding: 5px;
-text-align: center;
-background-color:#6C6061;
-}
-.column {
-	column-count:5;
-  column-gap: 0;
-  display:block;
-}
 .article-img{
   display:flex;
   float:right;
