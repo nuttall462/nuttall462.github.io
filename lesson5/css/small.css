@@ -169,8 +169,6 @@ p {
 }
 #article-title, #article-author{
     display:flex;
-    align-items: left;
-    justify-content: left;
 }
 .map{
     display:none;
@@ -186,8 +184,6 @@ p {
 }
 #forecast{
     font-size:25px;
-    align-content: left;
-    justify-content: left;
 }
 #fiveDay{
     display:flex;
