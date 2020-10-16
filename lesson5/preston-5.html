@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title> Whether the Weather | Preston</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Rylee Nuttall">
+  <meta name="description" content="This is the page for the city of Preston">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" href="images/iconfinder_weather-09_1530384.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Rubik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+      <img src="images/iconfinder_weather-09_1530384.jpg" alt="logo">
+      <section id ="topHeader">
+      <h1>Whether the Weather</h1>
+      <h3>Connecting our community through the sky</h3>
+      </section>
+      <button onClick = "toggleMenu()">&#9776;</button>
+    </header>
+    <nav class="navigation">
+      <ul id="menu" class="hide">
+        <li onClick="toggleMenu()"><a href="#"></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a class="active" href="preston-5.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+    <div id="pancakes">Saturday = Preston Pancakes in the Park! 9:00 AM Saturday at the city park pavilion.</div>
+    <main>
+      <h2>Preston Idaho</h2>
+        <section class="frontPage">
+            <div class="herodiv">
+              <img src="images/hero_img.jpg">
+              <section id="weather-summary">
+                <h3>Weather Summary</h3>
+                <table>
+                  <tr>
+                    <td>Currently:</td>
+                    <td>Sunny</td>
+                  </tr>
+                  <tr>
+                    <td>High:</td>
+                    <td>76°F</td>
+                  </tr>
+                  <tr>
+                    <td>Wind Chill:</td>
+                    <td>°F</td>
+                  </tr>
+                  <tr>
+                    <td>Humidity:</td>
+                    <td>69%</td>
+                  </tr>
+                  <tr>
+                    <td>Wind Speed:</td>
+                    <td>5 mph</td>
+                  </tr>
+                </table>
+              </section>
+            </div>
+            <section id="fiveDay">
+            <h3 id="forecast">Five-Day Forecast</h3>
+            <div class="column">
+              <section class="column-col">
+                <span class="col-head">Wed</span>
+                <img src="images/sunny-icon.png" alt="weather icon">
+                <span class="data">89°F</span>
+              </section>
+              <section class="column-col">
+                <span class="col-head">Thurs</span>
+                <img src="images/sunny-icon.png" alt="weather icon">
+                <span class="data">87°F</span>
+              </section>
+              <section class="column-col">
+                <span class="col-head">Fri</span>
+                <img src="images/sunny-icon.png" alt="weather icon">
+                <span class="data">78°F</span>
+              </section>
+              <section class="column-col">
+                <span class="col-head">Sat</span>
+                <img src="images/sunny-icon.png" alt="weather icon">
+                <span class="data">75°F</span>
+              </section>
+              <section class="column-col">
+                <span class="col-head">Sun</span>
+                <img src="images/sunny-icon.png" alt="weather icon">
+                <span class="data">72°F</span>
+              </section>
+            </div>
+          </section>
+            <div>
+              <img src="images/article_img.jpg" alt="preston sign" class="article-img">
+              <h3 id="article-title">Lorem Ipsum</h3>
+              <h4 id="article-author">by: Lorem Ipsum</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi 
+                molestie tortor et ornare viverra. Aliquam erat volutpat. Praesent 
+                consequat at dolor et dignissim. Orci varius natoque penatibus et 
+                magnis dis parturient montes, nascetur ridiculus mus. Nulla luctus 
+                vulputate ligula vel euismod. Vivamus vulputate nulla ac molestie 
+                fermentum. Phasellus ullamcorper nulla malesuada nunc aliquet dignissim. 
+                Nunc ullamcorper dapibus lacus, at pharetra turpis vulputate fringilla. Etiam 
+                sollicitudin odio nunc, id malesuada lorem congue eu.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi 
+                molestie tortor et ornare viverra. Aliquam erat volutpat. Praesent 
+                consequat at dolor et dignissim. Orci varius natoque penatibus et 
+                magnis dis parturient montes, nascetur ridiculus mus. Nulla luctus 
+                vulputate ligula vel euismod. Vivamus vulputate nulla ac molestie 
+                fermentum. Phasellus ullamcorper nulla malesuada nunc aliquet dignissim. 
+                Nunc ullamcorper dapibus lacus, at pharetra turpis vulputate fringilla. Etiam 
+                sollicitudin odio nunc, id malesuada lorem congue eu.</p>
+              
+            </div>
+            <div class="contactInfoLarge">
+              <div class="contactdiv">
+                  <img src="images/map.PNG" alt="map of preston idaho" class="map" height="300" width="300">
+                  <div class="contact-info">
+                      <h3>Contact Information</h3>
+                      <section class="infoLarge">
+                        <i class="material-icons">place</i> <p class="address">30 N 1st E <br>Preston, ID 83263</p>
+                      </section>
+                      <section class="infoLarge">
+                          &#9993; <p>whethertheweather@email.com</p>
+                      </section>
+                      <section class="infoLarge">
+                          &phone; <p>999-999-9999</p>
+                      </section>
+                      <section class="social-media">
+                          <img src="images/facebook.png" alt="facebook icon" height="35" width="35">
+                          <img src="images/instagram.png" alt="instagram icon" height="35" width="35">
+                          <img src="images/twitter.png" alt="twitter icon" height="35" width="35">
+                      </section>
+                    </div>
+                </div>
+          </div>
+        </section>
+    </main>
+    <footer>
+      <div>
+      &copy; Whether the Weather | Attributions | Rylee Nuttall</div>
+      <div><span id="currentDate"></span></div>
+    </footer>
+    <script type = "text/javascript" src="js/todaysDate.js"></script>
+    <script type = "text/javascript" src="js/hamburger.js"></script>
+</body>
+</html>
