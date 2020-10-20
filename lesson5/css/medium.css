@@ -1,7 +1,4 @@
 @media only screen and (min-width: 37.5em) {
-  body {
-      padding: 15px;
-  }
   .navigation li {
     flex: 1 1 100%;
   }
