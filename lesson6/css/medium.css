@@ -22,5 +22,9 @@
   display:flex;
   float:right;
 }
+#weather-summary{
+  font-size:0.95rem;
+  height:180px;
+}
 
 }
