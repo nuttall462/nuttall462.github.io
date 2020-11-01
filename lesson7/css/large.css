@@ -9,6 +9,33 @@
     }
     .pic-columns{
         grid-template-columns: repeat(3,3fr);
-        grid-template-rows: repeat(3,1fr);
+        grid-template-rows: 3;
+    }
+    .img1{
+        grid-row: 1;
+    }
+    .img2{
+        grid-row: 1;
+    }
+    .img3{
+        grid-row: 1;
+    }
+    .img4{
+        grid-row: 2;
+    }
+    .img5{
+        grid-row: 2;
+    }
+    .img6{
+        grid-row: 2;
+    }
+    .img7{
+        grid-row: 3;
+    }
+    .img8{
+        grid-row: 3;
+    }
+    .img9{
+        grid-row: 3;
     }
 }
