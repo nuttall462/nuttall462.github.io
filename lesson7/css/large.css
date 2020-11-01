@@ -38,4 +38,7 @@
     .img9{
         grid-row: 3;
     }
+    .galleryimg:hover{
+        box-shadow: 0 4px 8px 0;
+    }
 }
