@@ -51,4 +51,7 @@
     .galleryimg:hover{
         box-shadow: 0 4px 8px 0;
     }
+    picture img[data-src]{
+        height:90%;
+    }
 }

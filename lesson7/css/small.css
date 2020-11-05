@@ -97,7 +97,7 @@ nav ul.hide{
 }
 .pic-columns{
     display:grid;
-    grid-template-columns: 0.8fr;
+    grid-template-columns: 0.7fr;
     justify-content: center;
 }
 picture img[data-src] {
