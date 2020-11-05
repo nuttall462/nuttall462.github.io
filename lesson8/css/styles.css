@@ -19,17 +19,17 @@ body{
     background-color:#628ca6;
     color:white;
 }
-#table-title{
+thead{
     background-color:#7fb9c2;
     color:black;
     font-weight: bolder;
     font-size: x-large;
 }
-.bright-row{
-    background-color:#e7ffed;
-}
-.dull-row{
+tr:nth-child(2), tr:nth-child(4), tr:nth-child(6){
     background-color: #e7f0ed;
+}
+tr:nth-child(3), tr:nth-child(5), tr:nth-child(7){
+    background-color: #e7ffed;
 }
 tfoot{
     background-color:#7fb9c2;
@@ -38,13 +38,13 @@ tfoot{
 tr, td, th{
     padding:10px;
 }
-#odd-ball{
-    background-color:#628ca6;
-    color:white;
-}
 th{
     font-weight: lighter;
 }
-#blackFri{
+table tr:nth-child(6) th:nth-child(1){
     font-style: italic;
 }
+table tr:nth-child(5) td:nth-child(3){
+    background-color:#628ca6;
+    color:white;
+}   
