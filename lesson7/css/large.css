@@ -10,6 +10,7 @@
     .pic-columns{
         grid-template-columns: repeat(6,3fr);
         grid-template-rows: repeat(6,3fr);
+        margin: 1rem 0 3rem 0;
     }
     .img1{
         grid-column: 1/3;

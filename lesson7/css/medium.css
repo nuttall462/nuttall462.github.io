@@ -25,9 +25,11 @@
   }
   .pic-columns{
     grid-template-columns: repeat(2,1fr);
-    grid-auto-rows: 15%;
+    grid-auto-rows: 18%;
     margin-bottom: 1rem;
+    grid-gap: 12px;
     }
+    
   
   }
   
