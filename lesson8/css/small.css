@@ -121,5 +121,5 @@ textarea{
     width:100%;
 }
 .required{
-    color:darkred;
+    color: firebrick;
 }
