@@ -15,18 +15,7 @@
     display:flex;
     flex-flow:row;
     }
-    
-  .pic-columns{
-    grid-template-columns: repeat(2,1fr);
-    grid-auto-rows: 18%;
-    margin-bottom: 1rem;
-    grid-gap: 12px;
+    #main-container{
+      height:300px;
     }
-    picture img[data-src]{
-        height:350px;
-    }
-    
-  
-  }
-  
- 
+}
