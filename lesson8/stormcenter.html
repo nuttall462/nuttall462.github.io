@@ -61,7 +61,7 @@
             <label for="sType">
               Storm Type:
               <input list="sTypeOptions" id="sType" name="stormType">
-              <datalist id="sTypeOptions" name="stormType">
+              <datalist id="sTypeOptions">
                 <option value="Flash Flood"></option>
                 <option value="Hail"></option>
                 <option value="Hurricane"></option>
@@ -84,12 +84,12 @@
                 <option value="Fish Haven">Fish Haven</option>
               </select>
             </label>
-            <label>
+            <p>
               Are you in danger at this time?
               <input type="radio" id="yes" value="Yes" name="danger"><label for="yes">Yes</label>
               <input type="radio" id="maybe" value="Maybe" name="danger"><label for="maybe">Maybe</label>
               <input type="radio" id="no" value="No" name="danger"><label for="no">No</label>
-            </label>
+            </p>
             <label for="additional">
               Any additional information:
               <textarea id="additional" name="comments"></textarea>
