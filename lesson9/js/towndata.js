@@ -1,4 +1,4 @@
-var requestURL = 'https://nuttall462.github.io/lesson9/json/towndata.json';
+var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 var request = new XMLHttpRequest();
 
 var fishhaven = document.querySelector('.fish');
@@ -40,7 +40,8 @@ function townFishHaven(jsonObj) {
     fishhaven.appendChild(townRain);
 
     let image = document.createElement('img');
-    image.setAttribute('src', towns[1].photo);
+    image.setAttribute('src', "/lesson9/images/fish-haven-1200px.jpg");
+    image.setAttribute('alt', townName.textContent);
     fishhaven.appendChild(image);
 }
 
@@ -68,7 +69,8 @@ function townPreston(jsonObj) {
     preston.appendChild(townRain);
 
     let image = document.createElement('img');
-    image.setAttribute('src', towns[4].photo);
+    image.setAttribute('src', "/lesson9/images/preston.jpg");
+    image.setAttribute('alt', townName.textContent);
     preston.appendChild(image);
     
 }
@@ -98,7 +100,8 @@ function townSodaSprings(jsonObj) {
     sodasprings.appendChild(townRain);
 
     let image = document.createElement('img');
-    image.setAttribute('src', towns[5].photo);
+    image.setAttribute('src', "/lesson9/images/sodasprings.jpg");
+    image.setAttribute('alt', townName.textContent);
     sodasprings.appendChild(image);
       
 }
