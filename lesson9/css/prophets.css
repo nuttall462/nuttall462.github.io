@@ -1,0 +1,65 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main {
+    text-align: center;
+    margin: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cards section {
+    background-color: antiquewhite;
+    width: 300px;
+    height: 350px;
+    color: black;
+    box-shadow: 1px 1px 5px black;
+}
+
+.cards img {
+    width: 150px;
+    height:auto;
+}
+
+.cards p {
+    line-height: 1pt;
+    font-size: 1rem;
+}
+
+.cards section:nth-child(10) h2 {
+    font-size: 1.4rem;
+    margin-top: 30px;
+}
+
+footer {
+    margin: 20px;
+}
+@media only screen and (min-width: 37.5em) {
+    .cards {
+        flex-flow: row wrap;
+        flex: 0 1 auto;
+    }
+
+    .cards section {
+        max-width: 400px;
+        max-height: 450px;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .cards section {
+        flex: 0 0 23%;
+    }
+
+}

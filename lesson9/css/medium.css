@@ -1,0 +1,18 @@
+@media only screen and (min-width: 37.5em) {
+    .navigation li {
+      flex: 1 1 100%;
+    }
+    .navigation a {
+      text-align: center;
+    }
+    .navigation li:first-child {
+      display: none;
+    }
+    button{
+    display:none;
+    }
+    nav ul.hide{
+    display:flex;
+    flex-flow:row;
+    }
+}
