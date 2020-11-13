@@ -40,7 +40,7 @@ function townFishHaven(jsonObj) {
     fishhaven.appendChild(townRain);
 
     let image = document.createElement('img');
-    image.setAttribute('src', "/lesson9/images/fish-haven-1200px.jpg");
+    image.setAttribute('src', "/lesson9/images/fish-haven.jpg");
     image.setAttribute('alt', townName.textContent);
     fishhaven.appendChild(image);
 }
