@@ -15,7 +15,7 @@
       },
       {
         "name": "Fish Haven",
-        "photo": "fishhaven.jpg",
+        "photo": "images/fish-haven-1200px.jpg",
         "motto": "This is Fish Heaven.",
         "yearFounded": 1864,
         "currentPopulation": 501,
@@ -55,7 +55,7 @@
       },
       {
         "name": "Preston",
-        "photo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffi.pinterest.com%2Fpin%2F120963939971646252%2F&psig=AOvVaw0EfqjJLqb6T2VUF21D4XEl&ust=1605381189334000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPjTtJudgO0CFQAAAAAdAAAAABAE",
+        "photo": "images/preston.jpg",
         "motto": "Home of Napoleon Dynamite.",
         "yearFounded": 1866,
         "currentPopulation": 5204,
@@ -68,7 +68,7 @@
       },
       {
         "name": "Soda Springs",
-        "photo": "sodasprings.jpg",
+        "photo": "images/sodasprings.jpg",
         "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
         "yearFounded": 1858,
         "currentPopulation": 2985,

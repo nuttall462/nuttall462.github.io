@@ -1,4 +1,4 @@
-var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+var requestURL = 'https://nuttall462.github.io/lesson9/json/towndata.json';
 var request = new XMLHttpRequest();
 
 var fishhaven = document.querySelector('.fish');
@@ -38,6 +38,10 @@ function townFishHaven(jsonObj) {
     var townRain = document.createElement('p');
     townRain.textContent = 'Average Precipitation: ' + towns[1].averageRainfall;
     fishhaven.appendChild(townRain);
+
+    let image = document.createElement('img');
+    image.setAttribute('src', towns[1].photo);
+    fishhaven.appendChild(image);
 }
 
 function townPreston(jsonObj) {
@@ -62,6 +66,10 @@ function townPreston(jsonObj) {
     var townRain = document.createElement('p');
     townRain.textContent = 'Average Precipitation: ' + towns[4].averageRainfall;
     preston.appendChild(townRain);
+
+    let image = document.createElement('img');
+    image.setAttribute('src', towns[4].photo);
+    preston.appendChild(image);
     
 }
 
