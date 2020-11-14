@@ -91,3 +91,15 @@ nav ul.hide{
 .active{
     background-color:#6C6061;
 }
+.map{
+    display:none;
+}
+.contact-info{
+    display:flex;
+    flex-direction:column;
+    border:none;
+    font-size:20px;
+}
+.contactdiv{
+    border:none;
+}

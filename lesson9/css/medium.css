@@ -15,4 +15,9 @@
     display:flex;
     flex-flow:row;
     }
+    .map{
+        display:flex;
+        float:left;
+        margin:20px;
+    }
 }
