@@ -101,5 +101,61 @@ nav ul.hide{
     font-size:20px;
 }
 .contactdiv{
-    border:none;
+    border:dashed  #FF9B71;
+    align-content: center;
+    text-align: center;
+}
+
+.fishimg, .sodaimg{
+    grid-column: 4/5;
+    position: relative;
+}
+.fish, .soda, .prestonimg{
+    grid-column: 1/3;
+}
+.preston{
+    grid-column:4/6;
+}
+.townsec img{
+    height:150px;
+}
+
+.townsec{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr;
+    grid-auto-flow: column;
+    border: solid;
+    padding:10px;
+    
+}
+.herodiv{
+    position:relative;
+}
+.herodiv img{
+    width: 100%;
+    height:300px;
+    margin:5px;
+}
+#events{
+    display:flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bolder;
+    background-image: url(/lesson9/images/xmaslights.jpeg);
+}
+#events ul{
+    background-color: silver;
+}
+#events li{
+    padding:5px;
+}
+#mysection{
+    padding:10px;
+}
+.townEvents{
+    display:none;
+}
+.wireframes{
+    color: #E0FBFC;
 }

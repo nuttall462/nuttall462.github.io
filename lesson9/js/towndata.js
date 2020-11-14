@@ -2,8 +2,11 @@ var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 var request = new XMLHttpRequest();
 
 var fishhaven = document.querySelector('.fish');
+var fishhavenimg = document.querySelector('.fishimg');
 var preston = document.querySelector('.preston');
+var prestonimg = document.querySelector('.prestonimg');
 var sodasprings = document.querySelector('.soda');
+var sodaimg = document.querySelector('.sodaimg');
 
 
 request.open('GET', requestURL);
@@ -39,10 +42,15 @@ function townFishHaven(jsonObj) {
     townRain.textContent = 'Average Precipitation: ' + towns[1].averageRainfall;
     fishhaven.appendChild(townRain);
 
+    var townEvents = document.createElement('p');
+    townEvents.textContent = 'Events: ' + towns[1].events;
+    townEvents.setAttribute('class', "townEvents");
+    fishhaven.appendChild(townEvents);
+
     let image = document.createElement('img');
     image.setAttribute('src', "/lesson9/images/fish-haven.jpg");
     image.setAttribute('alt', townName.textContent);
-    fishhaven.appendChild(image);
+    fishhavenimg.appendChild(image);
 }
 
 function townPreston(jsonObj) {
@@ -68,10 +76,15 @@ function townPreston(jsonObj) {
     townRain.textContent = 'Average Precipitation: ' + towns[4].averageRainfall;
     preston.appendChild(townRain);
 
+    var townEvents = document.createElement('p');
+    townEvents.textContent = 'Events: ' + towns[4].events;
+    townEvents.setAttribute('class', "townEvents");
+    preston.appendChild(townEvents);
+
     let image = document.createElement('img');
     image.setAttribute('src', "/lesson9/images/preston.jpg");
     image.setAttribute('alt', townName.textContent);
-    preston.appendChild(image);
+    prestonimg.appendChild(image);
     
 }
 
@@ -82,14 +95,17 @@ function townSodaSprings(jsonObj) {
     var townName = document.createElement('h2');
     townName.textContent = towns[5].name;
     sodasprings.appendChild(townName);
+   
 
     var townMotto = document.createElement('h4');
     townMotto.textContent = towns[5].motto;
     sodasprings.appendChild(townMotto);
+   
 
     var townFound = document.createElement('p');
     townFound.textContent = 'Founded: ' + towns[5].yearFounded;
     sodasprings.appendChild(townFound);
+   
 
     var townPop = document.createElement('p');
     townPop.textContent = 'Population: ' + towns[5].currentPopulation;
@@ -99,10 +115,15 @@ function townSodaSprings(jsonObj) {
     townRain.textContent = 'Average Precipitation: ' + towns[5].averageRainfall;
     sodasprings.appendChild(townRain);
 
+    var townEvents = document.createElement('p');
+    townEvents.textContent = 'Events: ' + towns[5].events;
+    townEvents.setAttribute('class', "townEvents");
+    sodasprings.appendChild(townEvents);
+
     let image = document.createElement('img');
     image.setAttribute('src', "/lesson9/images/sodasprings.jpg");
     image.setAttribute('alt', townName.textContent);
-    sodasprings.appendChild(image);
+    sodaimg.appendChild(image);
       
 }
 

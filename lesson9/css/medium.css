@@ -20,4 +20,18 @@
         float:left;
         margin:20px;
     }
+    .townsec{
+        display:flex;
+        flex-flow:wrap;
+    }
+    #towns{
+        display:flex;
+        flex-flow:row; 
+    }
+    .townsec img{
+        height:190px;
+    }
+    .herodiv img{
+        height:400px;
+    }
 }
