@@ -57,7 +57,7 @@ function townPreston(jsonObj) {
     var towns = jsonObj['towns']
    
     var townName = document.createElement('h2');
-    townName.textContent = towns[4].name;
+    townName.textContent = towns[5].name;
     preston.appendChild(townName);
 
     var townMotto = document.createElement('h4');
@@ -65,19 +65,19 @@ function townPreston(jsonObj) {
     preston.appendChild(townMotto);
 
     var townFound = document.createElement('p');
-    townFound.textContent = 'Founded: ' + towns[4].yearFounded;
+    townFound.textContent = 'Founded: ' + towns[5].yearFounded;
     preston.appendChild(townFound);
 
     var townPop = document.createElement('p');
-    townPop.textContent = 'Population: ' + towns[4].currentPopulation;
+    townPop.textContent = 'Population: ' + towns[5].currentPopulation;
     preston.appendChild(townPop);
 
     var townRain = document.createElement('p');
-    townRain.textContent = 'Average Precipitation: ' + towns[4].averageRainfall;
+    townRain.textContent = 'Average Precipitation: ' + towns[5].averageRainfall;
     preston.appendChild(townRain);
 
     var townEvents = document.createElement('p');
-    townEvents.textContent = 'Events: ' + towns[4].events;
+    townEvents.textContent = 'Events: ' + towns[5].events;
     townEvents.setAttribute('class', "townEvents");
     preston.appendChild(townEvents);
 
@@ -93,30 +93,30 @@ function townSodaSprings(jsonObj) {
     var towns = jsonObj['towns'];
 
     var townName = document.createElement('h2');
-    townName.textContent = towns[5].name;
+    townName.textContent = towns[6].name;
     sodasprings.appendChild(townName);
    
 
     var townMotto = document.createElement('h4');
-    townMotto.textContent = towns[5].motto;
+    townMotto.textContent = towns[6].motto;
     sodasprings.appendChild(townMotto);
    
 
     var townFound = document.createElement('p');
-    townFound.textContent = 'Founded: ' + towns[5].yearFounded;
+    townFound.textContent = 'Founded: ' + towns[6].yearFounded;
     sodasprings.appendChild(townFound);
    
 
     var townPop = document.createElement('p');
-    townPop.textContent = 'Population: ' + towns[5].currentPopulation;
+    townPop.textContent = 'Population: ' + towns[6].currentPopulation;
     sodasprings.appendChild(townPop);
 
     var townRain = document.createElement('p');
-    townRain.textContent = 'Average Precipitation: ' + towns[5].averageRainfall;
+    townRain.textContent = 'Average Precipitation: ' + towns[6].averageRainfall;
     sodasprings.appendChild(townRain);
 
     var townEvents = document.createElement('p');
-    townEvents.textContent = 'Events: ' + towns[5].events;
+    townEvents.textContent = 'Events: ' + towns[6].events;
     townEvents.setAttribute('class', "townEvents");
     sodasprings.appendChild(townEvents);
 
