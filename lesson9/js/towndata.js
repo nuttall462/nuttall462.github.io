@@ -61,7 +61,7 @@ function townPreston(jsonObj) {
     preston.appendChild(townName);
 
     var townMotto = document.createElement('h4');
-    townMotto.textContent = towns[4].motto;
+    townMotto.textContent = towns[5].motto;
     preston.appendChild(townMotto);
 
     var townFound = document.createElement('p');
