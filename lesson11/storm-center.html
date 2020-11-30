@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title> Whether the Weather | Storm Center</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Rylee Nuttall">
+  <meta name="description" content="This is the storm center page">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" href="images/iconfinder_weather-09_1530384.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Rubik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+      <img src="images/iconfinder_weather-09_1530384.jpg" alt="logo">
+      <section id ="topHeader">
+      <h1>Whether the Weather</h1>
+      <h3>Connecting our community through the sky</h3>
+      </section>
+      <button onClick = "toggleMenu()">&#9776;</button>
+    </header>
+    <nav class="navigation">
+      <ul id="menu" class="hide">
+        <li onClick="toggleMenu()"></li>
+        <li><a href="/lesson11/index.html">Home</a></li>
+        <li><a href="/lesson11/preston.html">Preston</a></li>
+        <li><a href="/lesson11/soda-springs.html">Soda Springs</a></li>
+        <li><a href="/lesson11/fish-haven.html">Fish Haven</a></li>
+        <li><a class="active" href="storm-center.html">Storm Center</a></li>
+        <li><a href="/lesson11/gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <div id="pancakes">Saturday = Preston Pancakes in the Park! 9:00 AM Saturday at the city park pavilion.</div>
+    <main>
+      <h1>Fill out a Storm Report:</h1>
+        <form action="thanks.html">
+            <label for="name">
+              Full name:<span class="required">*</span>
+              <input type="text" id="name" required minlength="5" pattern="[A-Za-z ]+" name="fullName">
+            </label>
+            <label for="email">
+              Email:
+              <input type="email" id="email" placeholder="youremail@email.com" name="userEmail">
+            </label>
+            <label for="phoneNum">
+              Phone Number:<span class="required">*</span>
+              <input type="tel" id="phoneNum" required name="cellNumber">
+            </label>
+            <label for="zip">
+              Zip code:<span class="required">*</span>
+              <input type="number" id="zip" required name="zipCode">
+            </label>
+            <label for="sDate">
+              Storm Date:
+              <input type="date" id="sDate" name="stormDate">
+            </label>
+            <label for="sType">
+              Storm Type:
+              <input list="sTypeOptions" id="sType" name="stormType">
+              <datalist id="sTypeOptions">
+                <option value="Flash Flood"></option>
+                <option value="Hail"></option>
+                <option value="Hurricane"></option>
+                <option value="Thunderstorm"></option>
+                <option value="Tornado"></option>
+              </datalist>
+            </label>
+            <label for="sSeverity">
+              Storm Severity:
+              <input type="range" id="sSeverity" min="1" max="10" step="1" name="scale"
+              oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
+              <span id="severityValue">5</span>
+            </label>
+            <label for="sRegion">
+              Storm Region:
+              <select id="sRegion" name="location">
+                <option value="Default">Please select an option</option>
+                <option value="Preston">Preston</option>
+                <option value="Soda Springs">Soda Springs</option>
+                <option value="Fish Haven">Fish Haven</option>
+              </select>
+            </label>
+            <p>
+              Are you in danger at this time?
+              <input type="radio" id="yes" value="Yes" name="danger"><label for="yes">Yes</label>
+              <input type="radio" id="maybe" value="Maybe" name="danger"><label for="maybe">Maybe</label>
+              <input type="radio" id="no" value="No" name="danger"><label for="no">No</label>
+            </p>
+            <label for="additional">
+              Any additional information:
+              <textarea id="additional" name="comments"></textarea>
+            </label>
+            <p class="required">*indicates required field</p>
+            <input type="submit" value="Submit" id="submit" name="button">
+        </form>
+        
+    </main>
+    <footer>
+      <div>
+      &copy; Whether the Weather | Attributions | Rylee Nuttall</div>
+      <div><span id="currentDate"></span></div>
+    </footer>
+    <script src="js/todaysDate.js"></script>
+    <script src="js/range.js"></script>
+    <script src="js/loadimg.js" defer></script>
+    <script src="js/hamburger.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+      google: {families: ["Merriweather", "PT Serif"]}});
+    </script>
+</body>
+</html>

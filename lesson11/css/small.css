@@ -1,0 +1,324 @@
+header, footer {
+	align-items: center;
+	justify-content: center;
+    padding: 10px;
+    text-align:center;
+}
+footer{
+    color:#E0FBFC;
+    font-family: 'Rubik', sans-serif;
+    background-color: #07393C;
+}
+header{
+    display:flex;
+    color: #07393C;
+    background-color: #1B998B;
+}
+header, nav, main, footer {
+	margin: 0 auto;
+}
+main {
+  background-color: #E0FBFC;
+  font-size: 0.8rem;
+}
+h1, h2, h3, h4, h5, h6 {
+  color:#07393c;
+  font-family: 'Quicksand', sans-serif;
+}
+header img {
+    width: 100px;
+    height: 100px;
+    margin: 20px 20px 0 0;
+}
+.navigation {
+	list-style: none;
+    padding: 0;
+    background-color:#07393c;
+    display: flex;
+    flex-basis: 100%;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.navigation li {
+    list-style:none;
+    width: 100%;
+    flex: 1;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #E0FBFC;
+	font-family: 'Rubik', sans-serif;
+}
+.navigation a:hover, .frontPage a:hover{
+	background-color: #6C6061;
+}
+.frontPage a:hover{
+    color:#E0FBFC;
+}
+.navigation a:visited {
+	color: #FF9B71;
+}
+#topHeader{
+    display: flex;
+    flex-direction:column;
+    padding:5px;
+}
+.frontPage{
+    text-align:center;
+    list-style: none;
+    font-size: 0.95rem;
+    color: #E0FBFC;
+    font-family: 'Rubik', sans-serif;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+button{
+    float:right;
+    margin-top:50px;
+}
+main h2{
+    align-items:center;
+    text-align:center;
+}
+nav ul.hide{
+    display:none;
+}
+.navigation:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.herodiv img{
+    width: 100%;
+    height:300px;
+    margin:5px;
+}
+#weather-summary{
+    position:absolute;
+    top: 40px;
+	left: 50px;
+	background: radial-gradient(#eee,#1B998B);
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #111;
+    opacity: .8;
+    margin-right:25px;
+}
+.herodiv{
+    position:relative;
+}
+td {
+    text-align: left;
+    color:#07393c;
+}
+
+td:first-child {
+    text-align: right;
+    font-weight: bold;
+}
+.column-col{
+    text-align: center;
+    border:solid;
+  }
+  .column img {
+  width: 50%;
+  }
+  .data {
+  display: block;
+  padding: 0 5px 5px;
+  font-size: 1rem;
+  text-align: center;
+  }
+  .col-head {
+  font-weight: 700;
+  font-size: 1rem;
+  display: block;
+  padding: 5px;
+  text-align: center;
+  background-color:#6C6061;
+  }
+  .column {
+    column-count:5;
+    column-gap: 0;
+    display:block;
+    margin: 10px 0;
+    padding: 20px;
+    border-style: dashed;
+    color: #FF9B71;
+  }
+.article-img{
+    display:block;
+    height:250px;
+    width:300px;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    color:#07393c;
+}
+#article-title, #article-author{
+    display:flex;
+}
+.map{
+    display:none;
+}
+.contact-info{
+    display:flex;
+    flex-direction:column;
+    border:none;
+    font-size:20px;
+}
+.contactdiv{
+    border:none;
+}
+#forecast{
+    font-size:25px;
+}
+#fiveDay{
+    display:flex;
+    flex-direction:column;
+}
+#pancakes{
+    display:flex;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    background-color: #FF9B71;
+    color:#07393c;
+}
+.active{
+    background-color:#6C6061;
+}
+.map{
+    display:none;
+}
+.contact-info{
+    display:flex;
+    flex-direction:column;
+    border:none;
+    font-size:20px;
+}
+.contactdiv{
+    border:dashed  #FF9B71;
+    align-content: center;
+    text-align: center;
+}
+
+.fishimg, .sodaimg{
+    grid-column: 4/5;
+    position: relative;
+}
+.fish, .soda, .prestonimg{
+    grid-column: 1/3;
+}
+.preston{
+    grid-column:4/6;
+}
+.townsec img{
+    height:150px;
+}
+#towns{
+    margin: 10px 0;
+    padding: 20px;
+    border-style: dashed;
+    color: #FF9B71;
+}
+
+.townsec{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr;
+    grid-auto-flow: column;
+    border: solid;
+    padding:20px;
+}
+.herodiv{
+    position:relative;
+}
+.herodiv img{
+    width: 100%;
+    height:300px;
+    margin:5px;
+}
+#events{
+    display:flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bolder;
+    background-image: url(/lesson9/images/xmaslights.jpeg);
+}
+#events ul{
+    background-color: silver;
+}
+#events li{
+    padding:5px;
+}
+#mysection{
+    padding:10px;
+}
+.townEvents{
+    display:none;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    padding:30px;
+}
+label{
+    padding:10px;
+}
+input{
+    padding:10px;
+}
+textarea{
+    width:auto;
+    height:auto;
+}
+#submit{
+    width:10em;
+    height:3em;
+}
+#main-container{
+    height:400px;
+    text-align: center;
+    font-size:1.1rem;
+}
+#thanksfoot{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+.required{
+    color: firebrick;
+}
+.pic-columns{
+    display:grid;
+    grid-template-columns: 0.7fr;
+    justify-content: center;
+}
+picture img[data-src] {
+    filter: blur(0.2em);
+    object-fit: cover;
+    width:100%;
+    height:100%;
+  }
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    max-width: 100%;
+  }
+.galleryimg{
+    border-radius: 25px;
+    padding:20px;
+    margin:1rem;
+    
+}

@@ -1,0 +1,63 @@
+@media only screen and (min-width: 40em) {
+    .navigation li {
+      flex: 1 1 100%;
+    }
+    .navigation a {
+      text-align: center;
+    }
+    .navigation li:first-child {
+      display: none;
+    }
+    button{
+    display:none;
+    }
+    nav ul.hide{
+    display:flex;
+    flex-flow:row;
+    }
+    .map{
+        display:flex;
+        float:left;
+        margin:20px;
+    }
+    .townsec{
+        display:flex;
+        flex-flow:wrap;
+    }
+    #towns{
+        display:flex;
+        flex-direction: column;
+    }
+    .townsec img{
+        height:190px;
+    }
+    .herodiv img{
+        height:400px;
+    }
+    .town-column{
+      column-count:3;
+      column-gap: 0;
+      display:block;
+    }
+    .sodaimg img, .fishimg img, .prestonimg img{
+      width:100%;
+  }
+  
+    .article-img{
+        display:flex;
+        float:right;
+     }
+     #main-container{
+        height:300px;
+      }
+      .pic-columns{
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: 18%;
+        margin-bottom: 1rem;
+        grid-gap: 12px;
+        }
+        picture img[data-src]{
+            height:350px;
+        }
+  
+  }

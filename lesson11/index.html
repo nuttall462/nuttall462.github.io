@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title> Whether the Weather | Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Rylee Nuttall">
+  <meta name="description" content="This is the home page for Whether the Weather">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" href="images/iconfinder_weather-09_1530384.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Rubik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+      <img src="images/iconfinder_weather-09_1530384.jpg" alt="logo">
+      <section id ="topHeader">
+      <h1>Whether the Weather</h1>
+      <h3>Connecting our community through the sky</h3>
+      </section>
+      <button onClick = "toggleMenu()">&#9776;</button>
+    </header>
+    <nav class="navigation">
+      <ul id="menu" class="hide">
+        <li onClick="toggleMenu()"></li>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="/lesson11/preston.html">Preston</a></li>
+        <li><a href="/lesson11/soda-springs.html">Soda Springs</a></li>
+        <li><a href="/lesson11/fish-haven.html">Fish Haven</a></li>
+        <li><a href="/lesson11/storm-center.html">Storm Center</a></li>
+        <li><a href="/lesson11/gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <div id="pancakes">Saturday = Preston Pancakes in the Park! 9:00 AM Saturday at the city park pavilion.</div>
+    <main>
+        <div class="herodiv">
+            <img src="images/heroimg.jpg" alt="Idaho outdoors">
+        </div>
+        <section id="towns">
+          <div class="town-column">
+            <div class="townsec">
+                <section class="fish"></section>
+                <section class="fishimg"></section>
+            </div>
+            <div class="townsec">
+                <section class="preston"></section>
+                <section class="prestonimg"></section>
+            </div>
+            <div class="townsec">
+                <section class="soda"></section>
+                <section class="sodaimg"></section>
+            </div>
+          </div>
+        </section>
+        <div id="mysection">
+        <h1>Upcoming Community Events:</h1>
+        <nav id="events">
+            <ul>
+                <li>Thanksgiving Food Drive</li>
+                <li>Hay Rides</li>
+                <li>Lighing up the Downtown Christmas Tree</li>
+                <li>Pictures with Santa</li>
+            </ul>
+        </nav>
+        </div>
+        <div class="contactdiv">
+            <img src="images/map.PNG" alt="map of preston idaho" class="map" height="300" width="300">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <section>
+                  <i class="material-icons">place</i> <p>30 N 1st E <br>Preston, ID 83263</p>
+                </section>
+                <section>
+                    &#9993; <p>whethertheweather@email.com</p>
+                </section>
+                <section>
+                    &phone; <p>999-999-9999</p>
+                </section>
+                <section class="social-media">
+                    <img src="images/facebook.png" alt="facebook icon" height="35" width="35">
+                    <img src="images/instagram.png" alt="instagram icon" height="35" width="35">
+                    <img src="images/twitter.png" alt="twitter icon" height="35" width="35">
+                </section>
+              </div>
+          </div>
+    </main>
+    <footer>
+      <div>
+      &copy; Whether the Weather | Attributions | Rylee Nuttall</div>
+      <div><span id="currentDate"></span></div>
+    </footer>
+    <script src="js/todaysDate.js"></script>
+    <script src="js/towndata.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+      google: {families: ["Merriweather", "PT Serif"]}});
+    </script>
+</body>
+</html>
