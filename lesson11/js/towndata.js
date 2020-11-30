@@ -7,7 +7,6 @@ var preston = document.querySelector('.preston');
 var prestonimg = document.querySelector('.prestonimg');
 var sodasprings = document.querySelector('.soda');
 var sodaimg = document.querySelector('.sodaimg');
-var prestonEvents = document.querySelector('.pEvents');
 
 request.open('GET', requestURL);
 request.responseType = 'json';
@@ -17,14 +16,6 @@ request.onload = function () {
     townPreston(townData);
     townFishHaven(townData);
     townSodaSprings(townData);
-    presEve(townData);
-}
-function presEve(jsonObj){
-    var towns = jsonObj['towns'];
-
-    var eve = document.createElement('h2');
-    eve.textContent = towns[5].events;
-    prestonEvents.appendChild(eve);
 }
 
 function townFishHaven(jsonObj) {
