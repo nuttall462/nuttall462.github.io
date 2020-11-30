@@ -320,5 +320,16 @@ picture img {
     border-radius: 25px;
     padding:20px;
     margin:1rem;
-    
+}
+.pEvents, .fEvents, .sEvents{
+    background-color:#07393c;
+    font-size: medium;
+    color:#E0FBFC;
+    padding:5px;
+}
+.pEvents h2, .fEvents h2, .sEvents h2{
+    color:#E0FBFC;
+}
+.pEvents li, .fEvents li, .sEvents li{
+    list-style: none;
 }
