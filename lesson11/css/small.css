@@ -205,6 +205,7 @@ p {
     flex-direction:column;
     border:none;
     font-size:20px;
+    color:#07393c;
 }
 .contactdiv{
     border:dashed  #FF9B71;
