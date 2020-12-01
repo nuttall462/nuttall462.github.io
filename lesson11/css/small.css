@@ -136,6 +136,7 @@ td:first-child {
   padding: 0 5px 5px;
   font-size: 1rem;
   text-align: center;
+  color:#07393c;
   }
   .col-head {
   font-weight: 700;
@@ -144,6 +145,7 @@ td:first-child {
   padding: 5px;
   text-align: center;
   background-color:#6C6061;
+  color:white;
   }
   .column {
     column-count:5;
