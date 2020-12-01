@@ -226,7 +226,7 @@ p {
     height:150px;
 }
 #towns{
-    margin: 10px 0;
+    margin: 5px;
     padding: 20px;
     border-style: dashed;
     color: #FF9B71;
@@ -234,11 +234,12 @@ p {
 
 .townsec{
     display:grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows: 1fr;
     grid-auto-flow: column;
     border: solid;
-    padding:20px;
+    padding:10px;
+    margin:20px;
 }
 .herodiv{
     position:relative;
@@ -332,4 +333,10 @@ picture img {
 }
 .pEvents li, .fEvents li, .sEvents li{
     list-style: none;
+}
+.town-article{
+    padding:15px;
+}
+#gallery-main, #storm-main{
+    padding:30px;
 }
