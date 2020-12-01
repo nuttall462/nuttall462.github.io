@@ -1,4 +1,4 @@
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 45em) {
     .navigation li {
       flex: 1 1 100%;
     }
@@ -23,6 +23,8 @@
     .townsec{
         display:flex;
         flex-flow:wrap;
+        margin:10px;
+        margin-bottom: 15px;
     }
     #towns{
         display:flex;
@@ -41,23 +43,32 @@
     }
     .sodaimg img, .fishimg img, .prestonimg img{
       width:100%;
-  }
+    }
   
     .article-img{
-        display:flex;
-        float:right;
-     }
-     #main-container{
-        height:300px;
-      }
-      .pic-columns{
-        grid-template-columns: repeat(2,1fr);
-        grid-auto-rows: 18%;
-        margin-bottom: 1rem;
-        grid-gap: 12px;
-        }
-        picture img[data-src]{
-            height:350px;
-        }
+      display:flex;
+      float:right;
+    }
+    #main-container{
+      height:300px;
+    }
+    .pic-columns{
+      grid-template-columns: repeat(2,1fr);
+      grid-auto-rows: 18%;
+      margin-bottom: 1rem;
+      grid-gap: 12px;
+    }
+    picture img[data-src]{
+      height:350px;
+    }
+    .soda h2{
+      font-size: 1rem;
+    }
+    .soda h4{
+    font-size: x-small;
+    }
+    .sodaimg img{
+      height: 187px;
+    }
   
   }

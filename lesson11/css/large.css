@@ -63,4 +63,10 @@
     .soda h4{
         font-size: x-small;
     }
+    .sodaimg img{
+        height: 190px;
+    }
+    .townsec{
+        margin:20px;
+    }
 }
