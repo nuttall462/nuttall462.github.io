@@ -1,4 +1,4 @@
-var rentalinfo = require("./rentals.json");
+var rentalinfo = "https://nuttall462.github.io/final-project/data/rentals.json";
 var request = new XMLHttpRequest();
 var i;
 
