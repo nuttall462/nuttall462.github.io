@@ -13,8 +13,8 @@ request.onload = function () {
 }
 
 function scootsRentals(jsonObj) {
-    var rentals = jsonObj['rentals'];
-    for(i = 0; i < rentals[i].rentals.length; i++){
+    const rentals = jsonObj['rentals'];
+    for(i = 0; i < 6; i++){
         var rentSection = document.createElement('section');
 
         var rname = document.createElement('h2');
@@ -40,7 +40,9 @@ function scootsRentals(jsonObj) {
         var walk = document.createElement('p');
         walk.textContent = rentals[i].walkin[1];
         rentSection.appendChild(walk);
+
+        rental.appendChild(rentSection);
     }
-    rental.appendChild(rentSection);
+   
 }
 
