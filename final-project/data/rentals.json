@@ -1,0 +1,76 @@
+{
+    "rentals": [
+      {
+        "name": "Honda Metro Scooter",
+        "max": "1",
+        "reservation": [
+          "Half Day (3 hrs): $20",
+          "Full Day: $30"
+        ],
+        "walkin": [
+            "Half Day (3 hrs): $25",
+            "Full Day: $35"
+          ]
+      },
+      {
+        "name": "Honda Dio Scooter",
+        "max": "2",
+        "reservation": [
+          "Half Day (3 hrs): $30",
+          "Full Day: $40"
+        ],
+        "walk-in": [
+            "Half Day (3 hrs): $35",
+            "Full Day: $45"
+          ]
+      },
+      {
+        "name": "Honda PCX150 Scooter",
+        "max": "2",
+        "reservation": [
+          "Half Day (3 hrs): $40",
+          "Full Day: $50"
+        ],
+        "walk-in": [
+            "Half Day (3 hrs): $45",
+            "Full Day: $55"
+          ]
+      },
+      {
+        "name": "Honda Pioneer ATV",
+        "max": "4",
+        "reservation": [
+          "Half Day (3 hrs): $50",
+          "Full Day: $70"
+        ],
+        "walk-in": [
+            "Half Day (3 hrs): $60",
+            "Full Day: $80"
+          ]
+      },
+      {
+        "name": "Jeep Wrangler - 4 doors w/ AC",
+        "max": "5",
+        "reservation": [
+          "Half Day (3 hrs): $70",
+          "Full Day: $100"
+        ],
+        "walk-in": [
+            "Half Day (3 hrs): $85",
+            "Full Day: $125"
+          ]
+      },
+      {
+        "name": "Jeep Wrangler - 2 door",
+        "max": "4",
+        "reservation": [
+          "Half Day (3 hrs): $60",
+          "Full Day: $85"
+        ],
+        "walk-in": [
+            "Half Day (3 hrs): $70",
+            "Full Day: $90"
+          ]
+      }
+    ]
+  }

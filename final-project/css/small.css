@@ -1,0 +1,75 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: "Flavors";
+    font-weight: normal;
+}
+#topHeader h1{
+    font-size: 5rem;
+    font-weight: normal;
+}
+body{
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Nerko One";
+    padding-left:140px;
+}
+nav ul.hide{
+    display:none;
+}
+button{
+    float:right;
+    margin-top:50px;
+}
+.navigation li {
+    list-style:none;
+    width: 100%;
+}
+header, footer{
+    background-color: #0077B6;
+}
+header{
+    display:flex;
+}
+footer{
+    align-items: center;
+	justify-content: center;
+    padding: 10px;
+    text-align:center;
+    font-weight: 500;
+}
+.navigation {
+    background-color: #726E60;
+    font-size: xx-large;
+    display: flex;
+    flex-flow: column;
+}
+.navigation a{
+    color: #9AD4D6;
+    text-decoration: none;
+}
+.navigation a:visited{
+    color:#F87575;
+}
+.navigation a:hover{
+    background-color: #9AD4D6;
+    color: #726E60;
+}
+#topHeader{
+    display:flex;
+}
+#topHeader p{
+    z-index: 1;
+    font-size:1.8rem;
+    color: white;
+    position:absolute;
+    padding-left: 400px;
+}
+#topHeader img{
+    z-index: 0;
+    padding-top: 10px;
+    padding-right: 15px;
+    position: relative;
+}
+main{
+    background-color: #9AD4D6;;
+}
