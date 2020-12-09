@@ -1,6 +1,5 @@
 var rentalinfo = "https://nuttall462.github.io/final-project/data/rentals.json";
 var request = new XMLHttpRequest();
-var i;
 
 var rental = document.querySelector('.rental');
 
@@ -14,7 +13,7 @@ request.onload = function () {
 
 function scootsRentals(jsonObj) {
     const rentals = jsonObj['rentals'];
-    for(i = 0; i < 6; i++){
+    for(let i = 0; i < rentals[i].length; i++){
         var rentSection = document.createElement('section');
 
         var rname = document.createElement('h2');
@@ -25,22 +24,26 @@ function scootsRentals(jsonObj) {
         rmax.textContent = rentals[i].max;
         rentSection.appendChild(rmax);
 
-        var reserve = document.createElement('p');
-        reserve.textContent = rentals[i].reservations[0];
-        rentSection.appendChild(reserve);
+        for (let j = 0; j < rentals[i].reservations.length; j++) {
+            var reserve = document.createElement('p');
+            reserve.textContent = rentals[i].reservations[j];
+            rentSection.appendChild(reserve);
 
-        var reserve = document.createElement('p');
-        reserve.textContent = rentals[i].reservations[1];
-        rentSection.appendChild(reserve);
+            var reserve = document.createElement('p');
+            reserve.textContent = rentals[i].reservations[j];
+            rentSection.appendChild(reserve);
+          }
 
-        var walk = document.createElement('p');
-        walk.textContent = rentals[i].walkin[0];
-        rentSection.appendChild(walk);
-
-        var walk = document.createElement('p');
-        walk.textContent = rentals[i].walkin[1];
-        rentSection.appendChild(walk);
-
+          for (let k = 0; k < rentals[i].walkin.length; k++) {
+            var walk = document.createElement('p');
+            walk.textContent = rentals[i].walkin[k];
+            rentSection.appendChild(walk);
+    
+            var walk = document.createElement('p');
+            walk.textContent = rentals[i].walkin[k];
+            rentSection.appendChild(walk);
+          }
+        
         rental.appendChild(rentSection);
     }
    
