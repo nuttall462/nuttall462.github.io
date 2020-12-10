@@ -6,4 +6,33 @@
     button{
         display:none;
     }
+    #boxes{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+    .logo{
+        height:110px;
+    }
+    #topHeader img{
+        height:100px;
+    }
+    header:before{
+        top:85%;
+    }
+    #topHeader p{
+        padding-left: 400px;
+        font-size: larger;
+        padding-bottom: 0px;
+    }
+    .navigation li{
+        font-size:2rem;
+        padding-right:40px;
+    }
+    .contacts img{
+        height:100px;
+    }
+    .column{
+        width:500px;
+        height:200px;
+    }
 }
