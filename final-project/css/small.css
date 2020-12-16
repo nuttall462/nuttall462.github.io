@@ -65,6 +65,7 @@ footer{
     padding: 10px;
     text-align:center;
     font-weight: 500;
+    font-size:20px;
 }
 .navigation {
     background-color: #726E60;
@@ -380,3 +381,31 @@ form select {
     text-align: center;
     align-content: center;
 }
+.rent-tables{
+    display:flex;
+    flex-direction: column;
+    font-size: 20px;
+    border:solid;
+    padding:5px;
+    text-align: center;
+    border-color: #FFE66D;
+    margin:5px;
+    background-color: lightgray;
+}
+.rent-tables td:nth-child(1){
+    color:#F87575;
+}
+.vehicle-name{
+    text-decoration: underline;
+}
+#rental-img{
+    margin-top:15px;
+}
+.article{
+    padding:15px;
+}
+.article h2{
+    text-align: center;
+}
+
+

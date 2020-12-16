@@ -1,6 +1,6 @@
-{
-    "rentals": [
+[
       {
+        "imgurl" : "https://nuttall462.github.io/final-project/images/honda-metro.jpg",
         "name": "Honda Metro Scooter",
         "max": "1",
         "reservation": [
@@ -13,6 +13,7 @@
           ]
       },
       {
+        "imgurl" : "https://nuttall462.github.io/final-project/images/honda-dio.jpeg",
         "name": "Honda Dio Scooter",
         "max": "2",
         "reservation": [
@@ -25,6 +26,7 @@
           ]
       },
       {
+        "imgurl" : "https://nuttall462.github.io/final-project/images/honda-PCX150.jpg",
         "name": "Honda PCX150 Scooter",
         "max": "2",
         "reservation": [
@@ -37,6 +39,7 @@
           ]
       },
       {
+        "imgurl" : "https://nuttall462.github.io/final-project/images/honda-pioneer.jpg",
         "name": "Honda Pioneer ATV",
         "max": "4",
         "reservation": [
@@ -49,6 +52,7 @@
           ]
       },
       {
+        "imgurl" : "https://nuttall462.github.io/final-project/images/jeep-4-door.jpeg",
         "name": "Jeep Wrangler - 4 doors w/ AC",
         "max": "5",
         "reservation": [
@@ -61,6 +65,7 @@
           ]
       },
       {
+        "imgurl" : "https://nuttall462.github.io/final-project/images/jeep-2-door.jpeg",
         "name": "Jeep Wrangler - 2 door",
         "max": "4",
         "reservation": [
@@ -73,4 +78,4 @@
           ]
       }
     ]
-  }
+  

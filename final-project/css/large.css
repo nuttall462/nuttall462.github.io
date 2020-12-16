@@ -26,4 +26,7 @@
         font-size: xx-large;
         padding-right:50px;
     }
+    #rental-img{
+        height: 350px;
+    }
 }
