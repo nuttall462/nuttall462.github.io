@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <title> ~Scoots | Contact</title>
+  <title> Thank you!</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Rylee Nuttall">
@@ -30,50 +30,30 @@
     <nav class="navigation">
       <ul id="menu" class="hide">
         <li onClick="toggleMenu()"></li>
-        <li><a href="index.html">Home</a></li>
-        <li><a class="active" href="/final-project/contact.html">&#127796;Contact</a></li>
+        <li><a href="/final-project/index.html">Home</a></li>
+        <li><a href="/final-project/contact.html">Contact</a></li>
         <li><a href="/final-project/tours.html">Tours</a></li>
         <li><a href="/final-project/rentals.html">Rentals</a></li>
         <li><a href="/final-project/reservations.html">Reservations</a></li>
       </ul>
     </nav>
-    <div id="alert"></div>
-    <main id="contact-main">
-      <h1>Our 2 Locations:</h1>
-      <iframe src="https://www.google.com/maps/d/embed?mid=11B3TSyyTCVAUodrazpOMPUkLkcfbVq2w" class="map"></iframe>
-      <h1>Questions?</h1>
-      <form class="contactForm" action="thanks.html">
-        <label for="name">
-          Full Name:<span class="required">*</span>
-          <input type="text" id="name" required minlength="5" pattern="[A-Za-z ]+" name="fullName">
-        </label>
-        <label for="email">
-          Email:<span class="required">*</span>
-          <input type="email" id="email" placeholder="youremail@email.com" name="userEmail" required>
-        </label>
-        <label for="questions">
-          Questions/Comments:
-          <textarea id="questions" name="comments"></textarea>
-        </label>
-        <p><span class="required">*</span>indicates required field</p>
-        <input type="submit" value="Submit" id="submit" name="button">
-      </form>
-      <h1 class="center">Follow Us!</h1>
-      <section class="contacts">
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="images/youtube.png" alt="youtube logo" ></a>
-        <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="instagram logo" ></a>
-        <a href="https://www.gmail.com" target="_blank"><img src="images/mail.png" alt="mail icon"></a>
-    </section>
+    <main id="main-container">
+        <h1>Resources:</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.planetware.com/tourist-attractions-/cozumel-mex-qr-coz.htm">Tour Info</a></li>
+                <li><a href="http://cozumelrentalvillas.com/History.html">Cozumel History</a></li>
+            </ul>
+        </nav>
+        
     </main>
-    <footer>
+    <footer id="thanksfoot">
       <div>
       &copy; Scoots | Attributions | Rylee Nuttall</div>
       <div><span id="currentDate"></span></div>
-      <a href="resources.html">Resources</a>
     </footer>
     <script src="js/todaysDate.js"></script>
     <script src="js/hamburger.js"></script>
-    <script src="js/weather.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/google.js"></script>
 </body>

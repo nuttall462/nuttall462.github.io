@@ -8,9 +8,12 @@ fetch(weatherURL)
     const humidity = document.querySelector('#humidity');
     const current = document.querySelector('#currently');
     const temp = document.querySelector('#current-temp');
+    const alert = document.querySelector('#alert');
     
     temp.innerHTML = jsObject.current.temp;
     current.innerHTML = jsObject.current.weather[0].description;
     humidity.innerHTML = jsObject.current.humidity;
-
+    if (jsObject.current.alerts !== NULL){
+      alert.innerHTML = jsObject.current.alerts;
+    }
   });
