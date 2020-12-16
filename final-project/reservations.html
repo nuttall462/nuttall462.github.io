@@ -41,7 +41,7 @@
     <div id="alert"></div>
     <main>
         <h1>*Rental Agreement*</h1>
-        <iframe src="data/scoots_rental_agreement.pdf" width=100%></iframe>
+        <iframe src="data/scoots_rental_agreement.pdf" id="pdf"></iframe>
         <a href="data/scoots_rental_agreement.pdf" download>Download Rental Agreement</a>
         <form class="reservation" action="confirmation.html">
           <label for="name">
@@ -127,8 +127,8 @@
           </label>
           <label for="vehicle">
             Which vehicle would you like to rent?<span class="required">*</span>
-            <select id="vehicle" required>
-              <option value="default">Please select an option</option>
+            <select id="vehicle" required >
+              <option value="default"></option>
               <option value="Honda Metro Scooter">Honda Metro Scooter</option>
               <option value="Honda Dio Scooter">Honda Dio Scooter</option>
               <option value="Honda PCX150 Scooter">Honda PCX150 Scooter</option>

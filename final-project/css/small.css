@@ -266,7 +266,7 @@ td:first-child {
 }
 #thanksfoot{
     position:absolute;
-    bottom:-20;
+    bottom:auto;
     width:100%;
 }
 form select {
@@ -400,6 +400,7 @@ form select {
 }
 #rental-img{
     margin-top:15px;
+    width:100%;
 }
 .article{
     padding:15px;
@@ -418,6 +419,9 @@ form select {
     align-self: center;
     margin-left:40px;
     font-size:20px;
+}
+#pdf{
+    width:100%;
 }
 
 
