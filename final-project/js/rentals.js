@@ -1,21 +1,13 @@
+
 var rentalinfo = "https://nuttall462.github.io/final-project/data/rentals.json";
-var request = new XMLHttpRequest();
 
-var rental = document.querySelector('.rental');
-
-request.open('GET', rentalinfo);
-request.responseType = 'json';
-request.send();
-request.onload = function () {
-    var rentals = request.response;
-    scootsRentals(rentals);
-}
-
-function scootsRentals(jsonObj) {
+fetch(rentalinfo)
+    .then((response) => response.json())
+    .then((jsonObj) => {
     const rentals = jsonObj['rentals'];
+    var rentSection = document.createElement('section');
+    var rental = document.querySelector('.rental-info');
     for(let i = 0; i < rentals[i].length; i++){
-        var rentSection = document.createElement('section');
-
         var rname = document.createElement('h2');
         rname.textContent = rentals[i].name;
         rentSection.appendChild(rname);
@@ -47,5 +39,5 @@ function scootsRentals(jsonObj) {
         rental.appendChild(rentSection);
     }
    
-}
+  });
 

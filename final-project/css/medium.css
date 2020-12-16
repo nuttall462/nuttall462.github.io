@@ -35,4 +35,20 @@
         width:500px;
         height:200px;
     }
+    .reservation{
+        font-size: 30px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #quantity {
+        width:50px;
+        font-size:30px;
+    }
+    .main-box {
+        width:600px;
+        height:300px;
+    }
+    .back{
+        font-size:18px;
+    }
 }

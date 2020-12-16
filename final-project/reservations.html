@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <title> Scoots | Reservations</title>
+  <title> ~Scoots | Reservations</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Rylee Nuttall">
@@ -10,6 +10,7 @@
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Flavors&family=Nerko+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/small.css">
   <link rel="stylesheet" href="css/medium.css">
@@ -37,9 +38,116 @@
         <li><a href="/final-project/reservations.html">&#127796;Reservations</a></li>
       </ul>
     </nav>
+    <div id="alert"></div>
     <main>
         <h1>*Rental Agreement*</h1>
-        
+        <iframe src="data/scoots_rental_agreement.pdf" width=100%></iframe>
+        <a href="data/scoots_rental_agreement.pdf" download>Download Rental Agreement</a>
+        <form class="reservation" action="confirmation.html">
+          <label for="name">
+            Full Name:<span class="required">*</span>
+            <input type="text" id="name" required minlength="5" pattern="[A-Za-z ]+" name="fullName">
+          </label>
+          <label for="email">
+            Email:<span class="required">*</span>
+            <input type="email" id="email" placeholder="youremail@email.com" name="userEmail" required>
+          </label>
+          <label for="phoneNum">
+            Phone Number:<span class="required">*</span>
+            <input type="tel" id="phoneNum" required name="cellNumber" placeholder="(123)-456-7890">
+          </label>
+          <label for="home">
+            Home State or Country:
+              <select id="home" >
+                <option value="default">Please select an option</option>
+                <option value="United States">United States</option>
+                <option value="Guatemala">Guatemala</option>
+                <option value="Belize">Belize</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Honduras">Honduras</option>
+                <option value="Aguascalientes">Aguascalientes</option>
+                <option value="Baja California">Baja California</option>
+                <option value="Baja California Sur">Baja California Sur</option>
+                <option value="Campeche">Campeche</option>
+                <option value="Chiapas">Chiapas</option>
+                <option value="Mexico City">Mexico City</option>
+                <option value="Chihuahua">Chihuahua</option>
+                <option value="Coahuila">Coahuila</option>
+                <option value="Colima">Colima</option>
+                <option value="Durango">Durango</option>
+                <option value="Guanajuato">Guanajuato</option>
+                <option value="Guerrero">Guerrero</option>
+                <option value="Hidalgo">Hidalgo</option>
+                <option value="Jalisco">Jalisco</option>
+                <option value="México">México</option>
+                <option value="Michoacán">Michoacán</option>
+                <option value="Morelos">Morelos</option>
+                <option value="Nayarit">Nayarit</option>
+                <option value="Nuevo León">Nuevo León</option>
+                <option value="Oaxaca">Oaxaca</option>
+                <option value="Puebla">Puebla</option>
+                <option value="Querétaro">Querétaro</option>
+                <option value="Quintana Roo">Quintana Roo</option>
+                <option value="San Luis Potosí">San Luis Potosí</option>
+                <option value="Sinaloa">Sinaloa</option>
+                <option value="Sonora">Sonora</option>
+                <option value="Tabasco">Tabasco</option>
+                <option value="Tamaulipas">Tamaulipas</option>
+                <option value="Tlaxcala">Tlaxcala</option>
+                <option value="Veracruz">Veracruz</option>
+                <option value="Yucatán">Yucatán</option>
+                <option value="Zacatecas">Zacatecas</option>
+                <option value="Other">Other</option>
+              </select>
+            </label>
+            <label for="cruiseline">
+              Cruise line (if applicable):
+              <select id="cruiseline">
+                <option value="default">Please select an option</option>
+                <option value="Disney Wonder">Disney Wonder</option>
+                <option value="Erodam">Erodam</option>
+                <option value="Nieuw Amsterdam">Nieuw Amsterdam</option>
+                <option value="Norwegian Joy">Norwegian Joy</option>
+                <option value="Ruby Princess">Ruby Princess</option>
+                <option value="Norwegian Bliss">Norwegian Bliss</option>
+                <option value="Grand Princess">Grand Princess</option>
+                <option value="Carnival Inspiration">Carnival Inspiration</option>
+                <option value="Maasdam">Maasdam</option>
+                <option value="Oosterdam">Oosterdam</option>
+                <option value="Other">Other</option>
+              </select>
+            </label>
+          <label for="sDate">
+            Start Rental Date:<span class="required">*</span>
+            <input type="date" id="sDate" name="startDate" required>
+          </label>
+          <label for="eDate">
+            End Rental Date:<span class="required">*</span>
+            <input type="date" id="eDate" name="endDate" required>
+          </label>
+          <label for="vehicle">
+            Which vehicle would you like to rent?<span class="required">*</span>
+            <select id="vehicle" required>
+              <option value="default">Please select an option</option>
+              <option value="Honda Metro Scooter">Honda Metro Scooter</option>
+              <option value="Honda Dio Scooter">Honda Dio Scooter</option>
+              <option value="Honda PCX150 Scooter">Honda PCX150 Scooter</option>
+              <option value="Honda Pioneer ATV">Honda Pioneer ATV</option>
+              <option value="Jeep Wrangler 4-door w/ AC">Jeep Wrangler 4-door w/ AC</option>
+              <option value="Jeep Wrangler 2-door">Jeep Wrangler 2-door</option>
+            </select>
+          </label>
+          <label for="quantity">
+            How many would you like to rent?<span class="required">*</span>
+            <input type="number" value="1" min="1" max="20" required id="quantity">
+          </label>
+          <label for="additional">
+            Any additional information:
+            <textarea id="additional" name="comments"></textarea>
+          </label>
+          <p><span class="required">*</span>indicates required field</p>
+          <input type="submit" value="Submit" id="submit" name="button">
+        </form>
     </main>
     <footer>
       <div>
@@ -49,9 +157,6 @@
     <script src="js/todaysDate.js"></script>
     <script src="js/hamburger.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-      WebFont.load({
-      google: {families: ["Flavors", "Nerko One"]}});
-    </script>
+    <script src="js/google.js"></script>
 </body>
 </html>

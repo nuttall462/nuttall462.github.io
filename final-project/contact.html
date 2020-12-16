@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <title> Scoots | Contact</title>
+  <title> ~Scoots | Contact</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Rylee Nuttall">
@@ -37,7 +37,33 @@
         <li><a href="/final-project/reservations.html">Reservations</a></li>
       </ul>
     </nav>
-    <main>
+    <div id="alert"></div>
+    <main id="contact-main">
+      <h1>Our 2 Locations:</h1>
+      <iframe src="https://www.google.com/maps/d/embed?mid=11B3TSyyTCVAUodrazpOMPUkLkcfbVq2w" class="map"></iframe>
+      <h1>Questions?</h1>
+      <form class="contactForm">
+        <label for="name">
+          Full Name:<span class="required">*</span>
+          <input type="text" id="name" required minlength="5" pattern="[A-Za-z ]+" name="fullName">
+        </label>
+        <label for="email">
+          Email:<span class="required">*</span>
+          <input type="email" id="email" placeholder="youremail@email.com" name="userEmail" required>
+        </label>
+        <label for="questions">
+          Questions/Comments:
+          <textarea id="questions" name="comments"></textarea>
+        </label>
+        <p><span class="required">*</span>indicates required field</p>
+        <input type="submit" value="Submit" id="submit" name="button">
+      </form>
+      <h1 class="center">Follow Us!</h1>
+      <section class="contacts">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="images/youtube.png" alt="youtube logo" ></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="instagram logo" ></a>
+        <a href="https://www.gmail.com" target="_blank"><img src="images/mail.png" alt="mail icon"></a>
+    </section>
     </main>
     <footer>
       <div>
@@ -47,9 +73,6 @@
     <script src="js/todaysDate.js"></script>
     <script src="js/hamburger.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-      WebFont.load({
-      google: {families: ["Flavors", "Nerko One"]}});
-    </script>
+    <script src="js/google.js"></script>
 </body>
 </html>
